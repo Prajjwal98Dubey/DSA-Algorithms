@@ -1,4 +1,3 @@
-
 def batteryPercentages(battery):
     nums = battery
     index = 0 
