@@ -1,0 +1,29 @@
+Requirements:- 
+    1. user will be able to reserve a parking lot and recieve recipet.
+    2. kind of vehicles(compact,regular,large,handicapped parking etc.)
+    3. rates of parking flat rates or rate on the basis of time and rates on the basis of the type of vehicle or the size of the vehicle.
+    4. payment
+
+Public Endpoints:- 
+    1. /reserve
+        params-> garage_id,start_time,end_time
+        return-> spot_id,reservation_id
+    2. /payment
+        params-> reservation_id
+        return -> status of payment 
+        can be handled throuhg 3rd party payments gateway.
+    3. /cancel
+        params->reservation_id
+    garage_id --> there might be many parking lot, so the garage_id will give the specific parking lot.
+Internal Endpoints:-
+    1. /calculate_payment
+        params-> reservation_id
+    2. /create_account
+        params-> email,password,firstname,lastname
+    3. /login
+        params->email,password
+        or use some other authentication methods for login
+    4. /allocate_spot
+        params-> reservation_id,vehicle_type,time
+
+Database Schema
