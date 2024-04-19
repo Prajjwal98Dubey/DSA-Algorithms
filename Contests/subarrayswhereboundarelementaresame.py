@@ -1,3 +1,7 @@
+'''
+-Initially find the previous greater element of each element present in the nums array. -Maintain a dictionary of all the indices of the a particular element like -> {6:[i1,i2,i3]}.
+-Now apply binary search to find out the left bound and the right bound which means the valid number of indices present.
+'''
 import collections
 def numberOfSubarrays(nums):
     def previousGreaterElement(nums):
@@ -39,4 +43,4 @@ def numberOfSubarrays(nums):
         rightBound = bsRight(hash[nums[i]],i)
         subs+=(rightBound-leftBound)+1
     return subs
-print(numberOfSubarrays([1]))
+print(numberOfSubarrays([3,3,3]))
