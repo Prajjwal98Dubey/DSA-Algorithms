@@ -1,0 +1,1 @@
+1.To avoid TLE we should always write an alogirthm which runs 10**8 operation in 1s,otherwise the code will give TLE.
