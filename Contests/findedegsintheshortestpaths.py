@@ -30,8 +30,6 @@ def findAnswer(n,edges):
         return distance
     startDistance = dijistra(0)
     endDistance = dijistra(n-1)
-    # print(startDistance)
-    # print(endDistance)
     for i in range(len(edges)):
         edge = edges[i]
         u = edge[0]

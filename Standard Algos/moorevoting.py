@@ -1,6 +1,5 @@
 
-# In this solution the time Complexity is O(n) but the space Cmplexity is also O(n) due to the usage of
-# dictionary so to solve this problem we have to use Moore's Voting Algorithm.
+# In this solution the time Complexity is O(n) but the space Complexity is also O(n) due to the usage of dictionary so to solve this problem in O(1) space, we have to use Moore's Voting Algorithm.
 
 
 # def majorityElement(nums):
@@ -16,7 +15,6 @@
 #     return -1
 #
 # print(majorityElement([3,1,3,3,2]))
-
 # Moore's Voting Algoithm:-
 def majorityElement(nums):
     count=1
@@ -41,3 +39,6 @@ def majorityElement(nums):
 
 print(majorityElement([3,1,3,3,2]))
 
+
+
+# https://www.studocu.com/in/document/institute-of-management-and-research-pune/bachalor-of-engineering/oracle/68344123

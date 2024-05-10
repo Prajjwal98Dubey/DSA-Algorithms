@@ -41,6 +41,10 @@ class Trie:
             curr.children[index]=None
             curr =  node
         curr.endOfWord = False
+    # this time the word can contain the "." which can match with any other letter in the word.
+    #"b.." currNode -> "b"
+    
+
 trie1 = Trie()
 trie1.insertion("apple")
 trie1.insertion("appleee")

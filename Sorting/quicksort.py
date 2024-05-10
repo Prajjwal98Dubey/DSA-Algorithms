@@ -26,4 +26,4 @@ def QuickSort(nums):
             return
     qs(nums,0,len(nums)-1)    
     return nums
-print(quickSort([10,1,5,6,2,3,9,8,7,4]))
+print(QuickSort([10,1,5,6,2,3,9,8,7,4]))

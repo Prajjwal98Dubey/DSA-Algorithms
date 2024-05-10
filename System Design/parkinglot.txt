@@ -26,4 +26,19 @@ Internal Endpoints:-
     4. /allocate_spot
         params-> reservation_id,vehicle_type,time
 
-Database Schema
+Database Schema:-
+1.Reservations->
+    {
+        id,garage_id,start_time,end_time,user_id
+    }
+2.Garage->
+{
+    id,rate_compact,rate_reg,rate_large
+}
+3. Spot->{
+    id,garage_id,status,vehicle_type
+}
+4. User{
+    id,email,password
+}
+5.
