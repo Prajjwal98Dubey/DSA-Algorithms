@@ -1,3 +1,8 @@
 1.To avoid TLE we should always write an alogirthm which runs 10**8 operation in 1s,otherwise the code will give TLE.
 
 2.In question where Sliding Window is not working then we will use prefix sum by calculating the cummulative sum ,cumalatice XOR and check if we encounter the same cummulative sum or XOR previously.
+
+3.to find out the factors of a number than run a loop from 1 to the square root of the number then check if during the iteration some number is divisible by that number than number//factor will also be divisible by it.example below:-
+
+36 -> 1, 2,3,4,5,6
+(1,36),(2,18),(3,12),(4,8),(6,6)
