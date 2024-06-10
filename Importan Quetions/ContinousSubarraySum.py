@@ -1,6 +1,8 @@
 '''
 Concept -> it follows the same approach as the subarray sum divisible by k with one improvement.
 
+Consider every index as the last element of the subarray,then try out finding the reminder and if this reminder is seen before then this is sure that there exists a subarray which is divisble my k.
+
 '''
 import collections
 def checkSubarraySum(nums,k):
