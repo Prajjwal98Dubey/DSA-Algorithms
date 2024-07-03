@@ -1,10 +1,7 @@
 '''
-
 dp[power] = max(dp[power-1],dp[power-2],dp[power-3]+(occurance of power * power))
 
 dp[power-3] cannot exists which means we have to find out the power in the power array which has the difference of power with the current power >=3 and most closest to the current power --> for this we can use binary search.
-
-
 '''
 def maximumTotalDamage(power):
     power.sort()
