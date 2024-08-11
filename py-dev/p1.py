@@ -1,0 +1,1 @@
+# decorators in python is used for adding some more functionality to the existing functions.

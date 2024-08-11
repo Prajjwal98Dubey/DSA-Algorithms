@@ -2,7 +2,6 @@
 # We can first element or the last element or any random element as the pivot.
 # After selecting the desired pivot we will place the pivot to its correct position which means the position of the pivot element in the sorted array.
 
-
 def QuickSort(nums):
     def findPartition(arr,low,high):
         # print(arr[low])

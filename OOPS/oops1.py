@@ -16,7 +16,7 @@
 # class Sedan(Car):
 #     def __init__(self,name,brand,color,price,power):
 #         super().__init__(name,brand,color,price)  # accessing the propeties of the parent class.
-#         self.power = power
+#         self.power = power  
 #     # the repr in the parent class is different and here it is different which means we have modified our __repr__ method, this concept is known as "Polymorphism".
 #     def __repr__(self):
 #         return f"Name: {self.name},Brand: {self.brand},Color: {self.color},Price:{self.price} power:{self.power}" 
